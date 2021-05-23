@@ -1,0 +1,78 @@
+.neontext
+{
+	color: #fff;
+	text-shadow: 
+	0 0 7px #fff,
+	0 0 10px #fff,
+	0 0 21px #fff,
+	0 0 42px #f09,
+	0 0 82px #f09,
+	0 0 92px #f09,
+	0 0 102px #f09,
+	0 0 151px #f09;
+}
+
+body
+{
+	font-size: 18px;
+	font-family: "Vibur", sans-serif;
+	background-color: #010a01;
+}
+
+h1, h2
+{
+	text-align: center;
+	font-weight: 400;
+	line-height: 1;
+	
+}
+
+h1
+{
+	font-size: 6.2rem;
+	letter-spacing: 4px;
+	
+
+}
+.pulsate
+{
+	animation: pulsate 1s infinite alternate;
+}
+
+h2
+{
+	font-size: 1.8rem;
+}
+
+.container
+{
+	margin-top: 20vh;
+}
+
+@keyframes pulsate
+{
+	100%{
+		text-shadow: 
+		0 0 4px #fff,
+		0 0 11px #fff,
+		0 0 19px #fff,
+		0 0 40px #f09,
+		0 0 80px #f09,
+		0 0 90px #f09,
+		0 0 100px #f09
+		0 0 150px #f09;
+	}
+
+	0%{
+
+		text-shadow: 
+		0 0 2px #fff,
+		0 0 4px #fff,
+		0 0 6px #fff,
+		0 0 10px #f09,
+		0 0 45px #f09,
+		0 0 55px #f09,
+		0 0 70px #f09,
+		0 0 80px #f09;
+	}
+}
